@@ -6,7 +6,7 @@ public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		try {
-			
+			System.setSecurityManager(new RMISecurityManager());
 
 			ElladeServer srv=new ElladeServer();
 			
