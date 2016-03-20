@@ -10,6 +10,8 @@ public class Main {
 
 			ElladeServer srv=new ElladeServer();
 			
+			//MODIFICA
+		System.out.println("prova");
 			Naming.rebind("ElladeServer", srv);
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
