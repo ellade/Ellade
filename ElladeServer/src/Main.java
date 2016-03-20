@@ -13,6 +13,7 @@ public class Main {
 			//MODIFICA DA REMOTO
 		
 			Naming.rebind("ElladeServer", srv);
+			
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

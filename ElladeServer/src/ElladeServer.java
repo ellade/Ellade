@@ -6,10 +6,11 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-import common.AccountingUser;
+import common.*;;
 
 public class ElladeServer extends UnicastRemoteObject implements AccountingUser {
 
+	
 	private Connection connection=null;
 	public ElladeServer()throws Exception {
 		super();
