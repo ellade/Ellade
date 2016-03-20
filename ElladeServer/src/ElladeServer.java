@@ -8,6 +8,7 @@ import java.sql.Statement;
 
 import common.*;;
 
+//MODIFICA PER MERGE
 public class ElladeServer extends UnicastRemoteObject implements AccountingUser {
 
 	
