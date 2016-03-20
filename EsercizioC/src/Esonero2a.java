@@ -1,4 +1,4 @@
-//prova di cambiamento e import
+//cambiamento 20/03
 public class Esonero2a {
 	public static void main(String[] args){
 		SalaCinema s1=new SalaCinema("Van Helsing",15);

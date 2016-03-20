@@ -1,4 +1,4 @@
-
+//prova di commit
 public class SalaCinema {
 	public static int DEFAULT_MAXFILA=21;
 	protected String film;
