@@ -10,6 +10,7 @@ import common.AccountingUser;
 
 public class ElladeServer extends UnicastRemoteObject implements AccountingUser {
 
+	
 	private Connection connection=null;
 	public ElladeServer()throws Exception {
 		super();

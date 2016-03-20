@@ -11,6 +11,7 @@ public class Main {
 			ElladeServer srv=new ElladeServer();
 			
 			Naming.rebind("ElladeServer", srv);
+			
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
