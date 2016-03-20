@@ -10,8 +10,7 @@ public class Main {
 		try {
 			System.setSecurityManager(new RMISecurityManager());
 			AccountingUser srv = (AccountingUser) Naming.lookup("//localhost/ElladeServer");
-			srv.SignUp("Zava", "zava@zava.zava", "");
-			System.out.println("SignUp eseguito correttamente.");
+			srv.SignUp("bella", "prova", "");
 			}
 			catch(Exception e){
 				e.printStackTrace();
