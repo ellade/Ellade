@@ -10,7 +10,7 @@ public class Main {
 
 			ElladeServer srv=new ElladeServer();
 			
-			//MODIFICA
+			//MODIFICA DA REMOTO
 		
 			Naming.rebind("ElladeServer", srv);
 		} catch (Exception e) {
