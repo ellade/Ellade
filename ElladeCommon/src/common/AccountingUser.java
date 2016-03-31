@@ -2,6 +2,7 @@ package common;
 
 import java.rmi.Remote;
 import java.rmi.RemoteException;
+import java.sql.ResultSet;
 
 public interface AccountingUser extends Remote {
 	//metodo per la registrazione di un utente
@@ -9,4 +10,6 @@ public interface AccountingUser extends Remote {
 	
 	//metodo login utente
 	public int Login(String username,String password) throws RemoteException;
+	
+	
 }
